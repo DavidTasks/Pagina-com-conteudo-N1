@@ -19,40 +19,45 @@ h1{
 }
 .header{
     width: 100%;
-    height: 100px;
+    min-height: 100px;
     background-color: rgb(17, 17, 17);
     border-bottom: 0.5px solid white;
-    display: flex;
+    /* display: flex; */
     position: fixed;
-    padding: 2px 5%;
+    /* flex-wrap: wrap; */
+    padding: 20px 2%;
 }
 
 
 
 .starWars{
+    /* text-align: center; */
+    float: left;
     text-transform: uppercase;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* width: 200px; */
+    width: 400px;
     text-align: center;
     display: flex;
     align-items: center;
+    justify-content: center;
     /* background-color: aqua; */
     /* border-bottom: 0.5px solid white; */
     font-size: 50px;
     color: white;
-    padding: 2%;
+    padding: 0 10px;
     cursor: context-menu;
 }
 
 .header ul{
+    float: right;
     /* background-color: aqua; */
     padding: 5px 5px;
     width: 350px;
-    position: absolute;
-    right: 0;
-    bottom: 0;
+    /* position: absolute; */
+    /* right: 0;
+    bottom: 0; */
     display: flex;
-    height: 100%;
+    /* height: 90px; */
     align-items: center;
     justify-content: space-between;
     margin-right: 5%;
