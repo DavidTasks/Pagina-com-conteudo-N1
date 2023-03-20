@@ -147,7 +147,7 @@ h1{
     width: 70%;
     height: 650px;
     background-color: green;
-    background-image: url(/imagens/vs.jpeg);
+    background-image: url(../imagens/vs.jpeg);
 }
 .image{
     background-position: top left;;
@@ -229,7 +229,7 @@ h1{
     width: 90%;
     height: 600px;
     margin: 0 auto;
-    background-image: url(/imagens/quigon.jpg);
+    background-image: url(../imagens/quigon.jpg);
     background-position: top;
     background-size: cover;
     border-radius: 8px;
